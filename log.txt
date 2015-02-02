@@ -1,0 +1,38 @@
+Start: Thu, 22 Jan 2015 11:23:53 -0800
+End: Thu, 22 Jan 2015 12:43:35 -0800
+Tasks: Setup git repository and started looking over assignments
+
+Start: Fri, 23 Jan 2015 18:00:00
+End: Thu, 22 Jan 2015 20:23:53 -0800
+Tasks: Worked on the variables.js and functions.js portion of the assignment
+
+Start: Sun, 25 Jan 2015 20:23:12
+End: Sun, 25 Jan 2015 21:38:15
+Tasks: Worked the objects.js portion of the assignment and went over the others
+
+Start: Sun, 25 Jan 2015 20:23:12
+End: Sun, 25 Jan 2015 21:38:15
+Tasks: Worked on the objects.js portion of the assignment and went over the others
+
+Start: Monday, 25 Jan 2015 17:23:12
+End: Monday, 26 Jan 2015 20:38:15
+Tasks: Went over all files, fixed bugs and completed all the files without any errors
+
+//BEGIN PART 2
+
+Start: Tuesday, 27 Jan 2015 11:23:12
+End: Tuesday, 27 Jan 2015 15:38:15
+Tasks: Began assignment with a lot of confusion, but worked on it for awhile and got the setup down and the JSON.parse working
+
+Start: Wednesday, 28 Jan 2015 21:23:12
+End: Thursday, 29 Jan 2015 00:38:15
+Tasks: More difficulty figuring out the requirements, but got my table working with descriptions and languages
+
+Start: Friday, 30 Jan 2015 16:12:12
+End: Saturaday, 29 Jan 2015 2:56:16
+Tasks: Worked almost all day on all sorts of functionalities, mainly the filtering. I took little breaks here 
+and there
+
+Start: Sunday, 1 Feb 2015 20:42:12
+End: Sunday, 1 Feb 2015 24:11:12
+Tasks: Worked out all the storage complications

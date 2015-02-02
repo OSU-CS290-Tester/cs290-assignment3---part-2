@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <title>Gists</title>
+        <link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<section>
+
+		<ul class="filterSection">
+			<li>
+				<strong>Show:</strong>
+				<input id="Python"
+				       deafultValue="false"
+				       type="checkbox"
+				       onclick="results(false, true, 'Python')"/>
+				<label>Python</label>
+			</li>
+			<li>
+				<input id="JSON"
+				       deafultValue="false"
+				       type="checkbox"
+				       onclick="results(false, true, 'JSON')"/>
+				<label>JSON</label>
+			</li>
+			<li>
+				<input id="JavaScript"
+				       deafultValue="false"
+				       type="checkbox"
+				       onclick="results(false, true, 'JavaScript')"/>
+				<label>JavaScript</label>
+			</li>
+			<li>
+				<input id="SQL"
+				       deafultValue="false"
+				       type="checkbox"
+				       onclick="results(false, true, 'SQL')"/>
+				<label>SQL</label>
+			</li>
+		</ul>
+
+		</section>
+		<section>
+		<input type="button" name="Search" value="Search for Gists" onclick="results();">
+		<select id="results" onchange="results(value);">
+			<option value ="30"> Display 30 Results </option>
+			<option value ="45"> Display 45 Results </option>
+			<option value ="65"> Display 65 Results </option>
+			<option value ="85"> Display 85 Results </option>
+			<option value ="100"> Display 100 Results </option>
+		</select>
+
+		</section>
+		<section id="results window">
+		</section>
+		<section>
+			<table id="itemsToFilter">
+				<caption> Search Results </caption>
+				<tr id="t_row1">
+					<th> Description </th>
+					<th> Language </th>
+				</tr>
+				<thead>
+					<tbody id="table_body">
+					</tbody>
+				</thead>
+			</table>
+		</section>
+		<section>
+			<table id="favorites_table">
+				<caption> Favorites </caption>
+				<tr id="t_row2">
+					<th> Description </th>
+					<th> Language </th>
+				</tr>
+				<thead>
+					<tbody id="favs_table_body">
+					</tbody>
+				</thead>
+			</table>
+		</section>
+
+
+    
+    <script src="main.js"></script>
+	</body>
+</html>
